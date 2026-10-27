@@ -119,6 +119,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &218556435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3864890953236363367, guid: ea95ff2208183c74da5cac69477dbfe2, type: 3}
+  m_PrefabInstance: {fileID: 7752954652667683972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &218556436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218556435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a64fe11ebdac864aabeef0d6086317d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  moveSpeed: 10
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +386,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3864890953236363367, guid: ea95ff2208183c74da5cac69477dbfe2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 218556436}
   m_SourcePrefab: {fileID: 100100000, guid: ea95ff2208183c74da5cac69477dbfe2, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
